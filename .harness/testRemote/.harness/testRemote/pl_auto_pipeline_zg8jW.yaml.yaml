@@ -1,0 +1,30 @@
+pipeline:
+  name: pl_auto_pipeline_zg8jW
+  identifier: pl_auto_pipeline_zg8jW
+  orgIdentifier: CDCNGAuto_TriggerOrgAuto2rULjz2OmN
+  projectIdentifier: CDCNGAuto_TriggerProjvaQ4AfeCaK
+  tags: { }
+  stages:
+      - stage:
+          name: S1
+          identifier: S1
+          description: ""
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    type: ShellScript
+                    name: Shell Script_1
+                    identifier: ShellScript_1
+                    spec:
+                      shell: Bash
+                      onDelegate: true
+                      source:
+                        type: Inline
+                        spec:
+                          script: echo 'hi'
+                      environmentVariables: [ ]
+                      outputVariables: [ ]
+                    timeout: 1m
+          tags: { }
