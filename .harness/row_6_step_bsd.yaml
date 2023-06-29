@@ -1,0 +1,20 @@
+template:
+  name: row 6 step
+  identifier: row_6_step
+  versionLabel: bsd
+  type: Step
+  projectIdentifier: amitTestGitX
+  orgIdentifier: default
+  tags: {}
+  spec:
+    timeout: 10m
+    type: ShellScript
+    spec:
+      shell: Bash
+      onDelegate: true
+      source:
+        type: Inline
+        spec:
+          script: echo 1234
+      environmentVariables: []
+      outputVariables: []
