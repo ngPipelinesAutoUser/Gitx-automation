@@ -1,0 +1,9 @@
+pipeline:
+  name: test case 3 preqa
+  identifier: test_case_3_preqa
+  template:
+    templateRef: pipeline_tempalte_pre_qa_default
+    versionLabel: v1
+  tags: {}
+  projectIdentifier: amitTestGitX
+  orgIdentifier: default
