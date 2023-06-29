@@ -1,0 +1,19 @@
+template:
+  name: stage default template preqa
+  identifier: stage_default_template_preqa
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: amitTestGitX
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: sadas
+              identifier: sadas
+              template:
+                templateRef: step_default_template_pre_qa1
+                versionLabel: v1
