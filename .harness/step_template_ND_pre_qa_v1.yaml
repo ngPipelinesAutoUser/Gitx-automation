@@ -15,6 +15,6 @@ template:
       source:
         type: Inline
         spec:
-          script: ehco "hi"
+          script: echo "hi"
       environmentVariables: []
       outputVariables: []
