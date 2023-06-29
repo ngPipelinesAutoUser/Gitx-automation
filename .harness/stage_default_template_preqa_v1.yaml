@@ -17,4 +17,3 @@ template:
               template:
                 templateRef: step_default_template_pre_qa1
                 versionLabel: v1
-                gitBranch: main-patch-bugbash
