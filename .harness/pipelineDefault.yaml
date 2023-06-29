@@ -1,0 +1,10 @@
+pipeline:
+  name: pipelineDefault
+  identifier: pipelineDefault
+  template:
+    templateRef: featureDefaultPipeline
+    versionLabel: v1
+    gitBranch: PRSource
+  tags: {}
+  projectIdentifier: vivek_proj
+  orgIdentifier: default
