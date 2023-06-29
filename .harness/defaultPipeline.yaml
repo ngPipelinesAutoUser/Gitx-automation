@@ -1,0 +1,23 @@
+pipeline:
+  name: defaultPipeline
+  identifier: defaultPipeline
+  projectIdentifier: vivek_proj
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: custom
+        identifier: custom
+        description: ""
+        type: Custom
+        spec:
+          execution:
+            steps:
+              - step:
+                  name: step1
+                  identifier: step1
+                  template:
+                    templateRef: remoteStep
+                    versionLabel: v1
+                    gitBranch: PRSource
+        tags: {}
