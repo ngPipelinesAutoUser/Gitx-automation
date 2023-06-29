@@ -4,6 +4,7 @@ pipeline:
   template:
     templateRef: pipeline_default_template_perqa
     versionLabel: v1
+    gitBranch: main-patch-bugbash123123
   tags: {}
   projectIdentifier: amitTestGitX
   orgIdentifier: default
