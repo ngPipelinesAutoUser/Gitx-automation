@@ -1,0 +1,19 @@
+template:
+  name: row 6 stage
+  identifier: row_6_stage
+  versionLabel: wer
+  type: Stage
+  projectIdentifier: amitTestGitX
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: sdfg
+              identifier: sdfg
+              template:
+                templateRef: row_6_step
+                versionLabel: bsd
