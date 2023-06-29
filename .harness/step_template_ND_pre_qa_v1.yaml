@@ -1,0 +1,20 @@
+template:
+  name: step template ND pre qa
+  identifier: step_template_ND_pre_qa
+  versionLabel: v1
+  type: Step
+  projectIdentifier: amitTestGitX
+  orgIdentifier: default
+  tags: {}
+  spec:
+    timeout: 10m
+    type: ShellScript
+    spec:
+      shell: Bash
+      onDelegate: true
+      source:
+        type: Inline
+        spec:
+          script: ehco "hi"
+      environmentVariables: []
+      outputVariables: []
