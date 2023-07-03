@@ -1,0 +1,23 @@
+inputSet:
+  name: pl_auto_inputset_iHTay
+  identifier: pl_auto_inputset_iHTay
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_0LPWz
+  pipeline:
+    identifier: PipelineAuto_CRUDmvz
+    stages:
+      - stage:
+          identifier: stage
+          type: Deployment
+          spec:
+            service:
+              serviceInputs:
+                serviceDefinition:
+                  type: Kubernetes
+                  spec:
+                    artifacts:
+                      primary:
+                        type: Acr
+                        spec:
+                          tag: <+trigger.artifact.build>
+
