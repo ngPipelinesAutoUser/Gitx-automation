@@ -1,0 +1,22 @@
+inputSet:
+  name: input3July
+  identifier: input3July
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_5BRsU
+  pipeline:
+    identifier: NGPipeAutoNGPipeAutoZmoamogOJyEQhk2ssexaCMbMw
+    stages:
+      - stage:
+          identifier: stage
+          type: Deployment
+          spec:
+            service:
+              serviceInputs:
+                serviceDefinition:
+                  type: Kubernetes
+                  spec:
+                    artifacts:
+                      primary:
+                        type: Acr
+                        spec:
+                          tag: <+trigger.artifact.build>
