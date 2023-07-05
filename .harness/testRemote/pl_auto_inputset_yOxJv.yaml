@@ -1,0 +1,1 @@
+{"inputSet":{"name":"pl_auto_inputset_9xppS","identifier":"pl_auto_inputset_9xppS","orgIdentifier":"DoNotDeleteTriggerOrg","projectIdentifier":"CDCNGAuto_zPmDK","pipeline":{"identifier":"pipeline","stages":[{"stage":{"identifier":"stage","type":"Deployment","spec":{"service":{"serviceRef":"ServNga4dJByKExr"}}}}]}}}
