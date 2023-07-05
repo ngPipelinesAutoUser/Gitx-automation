@@ -1,0 +1,15 @@
+inputSet:
+  name: pl_auto_inputset_Tv598
+  identifier: pl_auto_inputset_Tv598
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_apkTN
+  pipeline:
+    identifier: pipeline
+    stages:
+      - stage:
+          identifier: stage
+          type: Deployment
+          spec:
+            service:
+              serviceRef: $serviceRef
+
