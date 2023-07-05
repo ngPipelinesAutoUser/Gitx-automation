@@ -1,0 +1,23 @@
+inputSet:
+  name: Nexus3TriggerInputSetrKKi6
+  identifier: Nexus3TriggerInputSetrKKi6
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_Nexus3_TriggerkMOySvQYO7
+  pipeline:
+    identifier: PipelineAuto_CRUDOg5
+    stages:
+      - stage:
+          identifier: stage
+          type: Deployment
+          spec:
+            service:
+              serviceInputs:
+                serviceDefinition:
+                  type: Ssh
+                  spec:
+                    artifacts:
+                      primary:
+                        type: Nexus3Registry
+                        spec:
+                          tag: <+trigger.artifact.build>
+
