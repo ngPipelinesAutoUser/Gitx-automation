@@ -1,0 +1,1 @@
+{"inputSet":{"name":"pl_auto_inputset_MTCCv","identifier":"pl_auto_inputset_MTCCv","orgIdentifier":"DoNotDeleteTriggerOrg","projectIdentifier":"CDCNGAuto_Wy6rf","pipeline":{"identifier":"pipeline","stages":[{"stage":{"identifier":"stage","type":"Deployment","spec":{"service":{"serviceRef":"ServNgWStbRsif64"}}}}]}}}
