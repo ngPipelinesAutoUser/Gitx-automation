@@ -1,0 +1,14 @@
+inputSet:
+  name: bfnfnfn
+  identifier: bfnfnfn
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_0uMOA
+  pipeline:
+    identifier: pipeline
+    stages:
+      - stage:
+          identifier: stage
+          type: Deployment
+          spec:
+            service:
+              serviceRef: ServNgWYkwQs3Jzg
