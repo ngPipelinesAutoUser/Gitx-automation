@@ -1,0 +1,22 @@
+template:
+  name: pl_auto_template_74Aoc
+  identifier: pl_auto_template_74Aoc
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Approval
+    spec:
+      execution:
+        steps:
+          - step:
+              name: s2
+              identifier: s2
+              template:
+                templateRef: account.pl_auto_template_UWC8p
+                versionLabel: v3
+                templateInputs:
+                  type: HarnessApproval
+                  spec:
+                    approvers:
+                      userGroups: <+input>
