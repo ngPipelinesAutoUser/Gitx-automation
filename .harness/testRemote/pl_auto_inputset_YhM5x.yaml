@@ -1,0 +1,23 @@
+inputSet:
+  name: pl_auto_inputset_dvCB2
+  identifier: pl_auto_inputset_dvCB2
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_g2OwT
+  pipeline:
+    identifier: PipelineAuto_CRUDL0t
+    stages:
+      - stage:
+          identifier: stage
+          type: Deployment
+          spec:
+            service:
+              serviceInputs:
+                serviceDefinition:
+                  type: Kubernetes
+                  spec:
+                    artifacts:
+                      primary:
+                        type: Ecr
+                        spec:
+                          tag: <+trigger.artifact.build>
+
