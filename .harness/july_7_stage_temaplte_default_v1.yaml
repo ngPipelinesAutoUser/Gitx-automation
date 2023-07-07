@@ -1,0 +1,20 @@
+template:
+  name: july 7 stage temaplte default
+  identifier: july_7_stage_temaplte_default
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: amitTestGitX
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: sdfsa
+              identifier: sdfsa
+              template:
+                templateRef: july_7_step_template_default
+                versionLabel: v1
+                gitBranch: main
