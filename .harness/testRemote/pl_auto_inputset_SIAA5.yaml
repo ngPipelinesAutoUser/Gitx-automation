@@ -1,0 +1,23 @@
+inputSet:
+  name: pl_auto_inputset_XNUMz
+  identifier: pl_auto_inputset_XNUMz
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_O8cfw
+  pipeline:
+    identifier: PipelineAuto_CRUDI1I
+    stages:
+      - stage:
+          identifier: stage
+          type: Deployment
+          spec:
+            service:
+              serviceInputs:
+                serviceDefinition:
+                  type: Kubernetes
+                  spec:
+                    artifacts:
+                      primary:
+                        type: Ecr
+                        spec:
+                          tag: <+trigger.artifact.build>
+
