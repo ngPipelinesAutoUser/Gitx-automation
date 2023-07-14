@@ -1,1 +1,0 @@
-{"inputSet":{"name":"pl_auto_inputset_kKFVG","identifier":"pl_auto_inputset_kKFVG","orgIdentifier":"DoNotDeleteTriggerOrg","projectIdentifier":"CDCNGAuto_6ypct","pipeline":{"identifier":"pipeline","stages":[{"stage":{"identifier":"stage","type":"Deployment","spec":{"service":{"serviceRef":"ServNgHWoLPsTP0f"}}}}]}}}
