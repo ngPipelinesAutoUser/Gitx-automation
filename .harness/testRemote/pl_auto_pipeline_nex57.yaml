@@ -6,7 +6,7 @@ pipeline:
   tags: {}
   stages:
     - stage:
-        name: s2
+        name: s3
         identifier: stage1
         type: Pipeline
         spec:
