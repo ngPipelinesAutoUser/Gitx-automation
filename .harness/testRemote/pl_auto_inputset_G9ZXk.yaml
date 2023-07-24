@@ -1,1 +1,0 @@
-{"inputSet":{"name":"pl_auto_inputset_CLABC","identifier":"pl_auto_inputset_CLABC","orgIdentifier":"DoNotDeleteTriggerOrg","projectIdentifier":"CDCNGAuto_Zx5b3","pipeline":{"identifier":"pipeline","stages":[{"stage":{"identifier":"stage","type":"Deployment","spec":{"service":{"serviceRef":"ServNgbY1BB8lTz8"}}}}]}}}
