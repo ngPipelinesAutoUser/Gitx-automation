@@ -1,0 +1,15 @@
+pipeline:
+  name: ParentPipelineUASTHotN1i
+  identifier: ParentPipelineUASTHotN1i
+  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
+  orgIdentifier: Simlified_Git_sync
+  tags: {}
+  stages:
+    - stage:
+        name: s1
+        identifier: stage1
+        type: Pipeline
+        spec:
+          org: Simlified_Git_sync
+          pipeline: pl_auto_pipeline_y5u2R
+          project: SimplifiedGitSync_Do_Not_Delete
