@@ -1,0 +1,25 @@
+inputSet:
+  name: pl_auto_inputset_0fVsd
+  identifier: pl_auto_inputset_0fVsd
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_GithubTriggerSSH_5e3A2eIij4
+  pipeline:
+    identifier: pl_auto_pipeline_Kolu9
+    stages:
+      - stage:
+          identifier: S1
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    identifier: ShellScript_1
+                    template:
+                      templateInputs:
+                        type: ShellScript
+                        spec:
+                          source:
+                            type: Inline
+                            spec:
+                              script: echo 'hi'
+
