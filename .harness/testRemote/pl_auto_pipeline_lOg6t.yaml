@@ -1,0 +1,28 @@
+pipeline:
+  name: pl_auto_pipeline_lOg6t
+  identifier: pl_auto_pipeline_lOg6t
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_TriggerProjn5uKgnasot
+  tags: { }
+  stages:
+      - stage:
+          name: S2
+          identifier: S2
+          description: ""
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    type: Http
+                    name: Http_1
+                    identifier: Http_1
+                    timeout: 10s
+                    spec:
+                      url: https://smp-istio.test.harness.io/gateway/pipeline/api/webhook/custom/KWq0DDgeQHKTpoThmhKZQQ/v3?accountIdentifier=waHpyKESSaqOqFRfd9uyHQ&orgIdentifier=DoNotDeleteTriggerOrg&projectIdentifier=CDCNGAuto_TriggerProjn5uKgnasot&pipelineIdentifier=pl_auto_pipeline_kYDFW&triggerIdentifier=CDCNGAuto_Custom_Webhook_Trigger_L5GwXrI34v
+                      method: POST
+                      headers: [ ]
+                      inputVariables: [ ]
+                      outputVariables: [ ]
+                      requestBody: "{\"sample_key\": \"sample_value\"}"
+          tags: { }
