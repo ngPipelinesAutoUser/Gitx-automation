@@ -1,24 +1,22 @@
 template:
   name: pl_auto_template_AJVe9
   identifier: pl_auto_template_AJVe9
+  versionLabel: v3
   type: Stage
-  tags: {}
+  tags: { }
   spec:
     type: Approval
     spec:
       execution:
         steps:
           - step:
-              name: stage
-              identifier: stage
-              type: HarnessApproval
-              timeout: 1d
-              spec:
-                approvalMessage: Please review the following information and approve the pipeline progression 
-                includePipelineExecutionHistory: true
-                approvers:
-                  minimumCount: 1
-                  disallowPipelineExecutor: false
-                  userGroups: <+input>
-                approverInputs: [ ]
-  versionLabel: v3
+              name: s3
+              identifier: s3
+              template:
+                templateRef: account.pl_auto_template_Udf70
+                versionLabel: v3
+                templateInputs:
+                  type: HarnessApproval
+                  spec:
+                    approvers:
+                      userGroups: <+input>
