@@ -25,5 +25,5 @@ pipeline:
                           source:
                             type: Inline
                             spec:
-                              script: <+input>
+                              script: echo 'hi'
           tags: { }
