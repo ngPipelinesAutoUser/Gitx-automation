@@ -1,0 +1,1 @@
+{"inputSet":{"name":"pl_auto_inputset_UPhcr","identifier":"pl_auto_inputset_UPhcr","orgIdentifier":"DoNotDeleteTriggerOrg","projectIdentifier":"CDCNGAuto_fYTJF","pipeline":{"identifier":"pipeline","stages":[{"stage":{"identifier":"stage","type":"Deployment","spec":{"service":{"serviceRef":"ServNguRwaszQgoJ"}}}}]}}}
