@@ -1,1 +1,0 @@
-{"inputSet":{"name":"pl_auto_inputset_hShVd","identifier":"pl_auto_inputset_hShVd","orgIdentifier":"DoNotDeleteTriggerOrg","projectIdentifier":"CDCNGAuto_OlsVN","pipeline":{"identifier":"pipeline","stages":[{"stage":{"identifier":"stage","type":"Deployment","spec":{"service":{"serviceRef":"ServNgPVPKlF3hPv"}}}}]}}}
