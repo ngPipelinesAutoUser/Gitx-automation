@@ -24,7 +24,7 @@ pipeline:
                       - key: content-type
                         value: application/json
                       - key: x-api-key
-                        value: pat.rXUXvbFqRr2XwcjBu3Oq-Q.64abe6cbb5dbe80fbfa4bc63.F1S0QRSwclXcWmaTWDUo
+                        value: pat.FBionlq-Q9Gx5XIp197T-w.64c8de3f162d8e1d976af8b1.9RKPBMmudsgq8jClHh9x
                     outputVariables: []
                     inputVariables: []
                     requestBody: "{\"sample_key\": \"sample_value\"}"
