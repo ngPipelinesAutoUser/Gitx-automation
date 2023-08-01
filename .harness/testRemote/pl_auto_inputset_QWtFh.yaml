@@ -1,0 +1,25 @@
+inputSet:
+  name: pl_auto_inputset_lnVv4
+  identifier: pl_auto_inputset_lnVv4
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_CustomTrigger_ZQLuv
+  pipeline:
+    identifier: pl_auto_pipeline_Wp6W0
+    stages:
+      - stage:
+          identifier: S1
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    identifier: ShellScript_1
+                    template:
+                      templateInputs:
+                        type: ShellScript
+                        spec:
+                          source:
+                            type: Inline
+                            spec:
+                              script: echo 'hi'
+
