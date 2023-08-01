@@ -1,0 +1,25 @@
+inputSet:
+  name: pl_auto_inputset_seQUL
+  identifier: pl_auto_inputset_seQUL
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_CustomTrigger_Kyfw4
+  pipeline:
+    identifier: pl_auto_pipeline_egqO9
+    stages:
+      - stage:
+          identifier: S1
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    identifier: ShellScript_1
+                    template:
+                      templateInputs:
+                        type: ShellScript
+                        spec:
+                          source:
+                            type: Inline
+                            spec:
+                              script: echo 'hi'
+
