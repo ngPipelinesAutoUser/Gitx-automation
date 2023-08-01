@@ -1,0 +1,50 @@
+pipeline:
+  name: pl_auto_pipeline_ks1xm
+  identifier: pl_auto_pipeline_ks1xm
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_CustomTrigger_8RDin
+  tags: { }
+  stages:
+      - stage:
+          name: S2
+          identifier: S2
+          description: ""
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    type: ShellScript
+                    name: Shell Script_1
+                    identifier: ShellScript_1
+                    spec:
+                      shell: Bash
+                      onDelegate: true
+                      source:
+                        type: Inline
+                        spec:
+                          script: echo 'stage1'
+                      environmentVariables: [ ]
+                      outputVariables: [ ]
+                    timeout: 1m
+          tags: { }
+      - stage:
+          name: S1
+          identifier: S1
+          template:
+            templateRef: account.pl_auto_template_jDJq4
+            versionLabel: v3
+            templateInputs:
+              type: Custom
+              spec:
+                execution:
+                  steps:
+                    - step:
+                        identifier: ShellScript_1
+                        type: ShellScript
+                        spec:
+                          source:
+                            type: Inline
+                            spec:
+                              script: <+input>
+  allowStageExecutions: true
