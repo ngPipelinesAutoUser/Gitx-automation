@@ -1,0 +1,15 @@
+pipeline:
+  name: pl_auto_pipeline_3NVoH
+  identifier: pl_auto_pipeline_3NVoH
+  projectIdentifier: CDCNGAuto_CustomTrigger_8RDin
+  orgIdentifier: DoNotDeleteTriggerOrg
+  tags: {}
+  stages:
+    - stage:
+        name: s1
+        identifier: stage1
+        type: Pipeline
+        spec:
+          org: DoNotDeleteTriggerOrg
+          pipeline: pl_auto_pipeline_lhcXj
+          project: CDCNGAuto_CustomTrigger_8RDin
