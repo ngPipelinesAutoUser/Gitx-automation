@@ -1,0 +1,28 @@
+pipeline:
+  name: test4567
+  identifier: test4567
+  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
+  orgIdentifier: Simlified_Git_sync
+  tags: {}
+  stages:
+    - stage:
+        name: S123
+        identifier: S123
+        description: ""
+        type: Custom
+        spec:
+          execution:
+            steps:
+              - step:
+                  type: Wait
+                  name: Wait_1
+                  identifier: Wait_1
+                  spec:
+                    duration: 10m
+        tags: {}
+  variables:
+    - name: orgName
+      type: String
+      description: ""
+      required: false
+      value: " <+org.name> org name"
