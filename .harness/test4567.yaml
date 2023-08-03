@@ -31,3 +31,9 @@ pipeline:
       description: ""
       required: false
       value: " <+pipeline.stages.S123.spec.execution.steps.Wait_1.identifier>"
+    - name: sdsd
+      type: Number
+      description: ""
+      required: false
+      value: " <+pipeline.description>"
+  description: zxcxzcx
