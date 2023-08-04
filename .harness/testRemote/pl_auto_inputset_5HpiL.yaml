@@ -1,0 +1,1 @@
+{"inputSet":{"name":"pl_auto_inputset_hXH64","identifier":"pl_auto_inputset_hXH64","orgIdentifier":"DoNotDeleteTriggerOrg","projectIdentifier":"CDCNGAuto_PCtEk","pipeline":{"identifier":"pipeline","stages":[{"stage":{"identifier":"stage","type":"Deployment","spec":{"service":{"serviceRef":"ServNgJywyBKXQoa"}}}}]}}}
