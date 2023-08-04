@@ -1,0 +1,1 @@
+{"inputSet":{"name":"pl_auto_inputset_3NX2v","identifier":"pl_auto_inputset_3NX2v","orgIdentifier":"DoNotDeleteTriggerOrg","projectIdentifier":"CDCNGAuto_3DKvP","pipeline":{"identifier":"pipeline","stages":[{"stage":{"identifier":"stage","type":"Deployment","spec":{"service":{"serviceRef":"ServNgE30al7TBLl"}}}}]}}}
