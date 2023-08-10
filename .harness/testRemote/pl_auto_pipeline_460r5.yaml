@@ -1,0 +1,32 @@
+pipeline:
+  name: pl_auto_pipeline_460r5
+  identifier: pl_auto_pipeline_460r5
+  projectIdentifier: CDCNGAuto_CustomTrigger_V3uCp
+  orgIdentifier: DoNotDeleteTriggerOrg
+  tags: {}
+  stages:
+    - stage:
+        name: WebHook_Trigger
+        identifier: WebHook_Trigger
+        description: ""
+        type: Custom
+        spec:
+          execution:
+            steps:
+              - step:
+                  type: Http
+                  name: WebHook
+                  identifier: WebHook
+                  spec:
+                    url: https://stress.harness.io/gateway/pipeline/api/webhook/custom/pJGDd8uvTm-1NZp1p_9CyA/v3?accountIdentifier=rXUXvbFqRr2XwcjBu3Oq-Q&orgIdentifier=DoNotDeleteTriggerOrg&projectIdentifier=CDCNGAuto_CustomTrigger_V3uCp&pipelineIdentifier=pl_auto_pipeline_3xtkP&triggerIdentifier=CDNGAuto_Trigger_r9SB5TWzNJ
+                    method: POST
+                    headers:
+                      - key: content-type
+                        value: application/json
+                      - key: x-api-key
+                        value: pat.rXUXvbFqRr2XwcjBu3Oq-Q.64abef054d17a85a4b4d1173.FOiPAwRrdrmLk0H2mdGC
+                    outputVariables: []
+                    inputVariables: []
+                    requestBody: "{\"sample_key\": \"sample_value\"}"
+                  timeout: 10m
+        tags: {}
